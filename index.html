@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SB Properties Limited</title>
+    <meta
+      name="description"
+      content="SB Properties Limited helps clients browse Dhaka and Chattogram homes, neighborhoods, and book property consultations across Bangladesh."
+    />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="SB Properties Limited">
+        <span class="brand-mark">SB</span>
+        <span>SB Properties Limited</span>
+      </a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="#listings">Listings</a>
+        <a href="#neighborhoods">Neighborhoods</a>
+        <a href="#agents">Agents</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-action" href="#contact">Book a Tour</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="eyebrow">SB Properties Limited</p>
+          <h1 id="hero-title">Find your next home in the heart of Bangladesh.</h1>
+          <p class="hero-copy">
+            Explore curated apartments, duplexes, and family homes across Dhaka and Chattogram with
+            SB Properties Limited guiding you from viewing to handover.
+          </p>
+          <form class="search-panel" aria-label="Property search">
+            <label>
+              <span>Location</span>
+              <input type="search" placeholder="Gulshan, Dhanmondi, Uttara, Chattogram" />
+            </label>
+            <label>
+              <span>Budget</span>
+              <select>
+                <option>Any budget</option>
+                <option>৳80L - ৳1.5Cr</option>
+                <option>৳1.5Cr - ৳3Cr</option>
+                <option>৳3Cr+</option>
+              </select>
+            </label>
+            <label>
+              <span>Home type</span>
+              <select>
+                <option>Any type</option>
+                <option>Duplex</option>
+                <option>Apartment</option>
+                <option>Plot</option>
+              </select>
+            </label>
+            <button type="button" id="searchButton">Search</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="stats-band" aria-label="Company statistics">
+        <div>
+          <strong>18+</strong>
+          <span>years in Bangladesh real estate</span>
+        </div>
+        <div>
+          <strong>420</strong>
+          <span>homes sold and leased across BD</span>
+        </div>
+        <div>
+          <strong>4.9/5</strong>
+          <span>average client rating</span>
+        </div>
+      </section>
+
+      <section class="section" id="listings" aria-labelledby="listings-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Featured homes</p>
+            <h2 id="listings-title">Ready-to-tour properties</h2>
+          </div>
+          <div class="filter-buttons" aria-label="Filter listings">
+            <button class="filter-button active" type="button" data-filter="all">All</button>
+            <button class="filter-button" type="button" data-filter="house">Duplexes</button>
+            <button class="filter-button" type="button" data-filter="apartment">Apartments</button>
+          </div>
+        </div>
+
+        <div class="listing-grid">
+          <article class="listing-card" data-type="house">
+            <img
+              src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1100&q=80"
+              alt="Modern white house with a landscaped front yard"
+            />
+            <div class="listing-body">
+              <p class="listing-price">৳3.25 crore</p>
+              <h3>Gulshan Avenue Duplex</h3>
+              <p>4 beds · 4 baths · 2-car parking</p>
+              <span>Quiet family residence close to schools, embassies, and lakeside dining.</span>
+            </div>
+          </article>
+
+          <article class="listing-card" data-type="apartment">
+            <img
+              src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1100&q=80"
+              alt="Open plan apartment living room with large windows"
+            />
+            <div class="listing-body">
+              <p class="listing-price">৳1.45 crore</p>
+              <h3>Dhanmondi Lake Apartment</h3>
+              <p>3 beds · 3 baths · Lift and generator</p>
+              <span>Walkable city living near the lake, cafes, hospitals, and schools.</span>
+            </div>
+          </article>
+
+          <article class="listing-card" data-type="house">
+            <img
+              src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1100&q=80"
+              alt="Contemporary home interior with kitchen and dining space"
+            />
+            <div class="listing-body">
+              <p class="listing-price">৳2.1 crore</p>
+              <h3>Bashundhara R/A Corner Home</h3>
+              <p>3 beds · 3 baths · Staff room</p>
+              <span>Modern apartment near universities, shopping, and major access roads.</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="neighborhood-band" id="neighborhoods" aria-labelledby="neighborhood-title">
+        <div class="neighborhood-copy">
+          <p class="eyebrow">Local knowledge</p>
+          <h2 id="neighborhood-title">Know the para before you make an offer.</h2>
+          <p>
+            We compare commute times, recent sales, RAJUK records, flood and drainage conditions,
+            school access, mosque proximity, security, and lifestyle fit so every inspection is
+            grounded in useful Bangladesh context.
+          </p>
+        </div>
+        <div class="neighborhood-list" aria-label="Popular neighborhoods">
+          <article>
+            <strong>Gulshan and Banani</strong>
+            <span>Premium apartments, diplomatic zone access, restaurants</span>
+          </article>
+          <article>
+            <strong>Dhanmondi and Lalmatia</strong>
+            <span>Lake walks, schools, hospitals, established communities</span>
+          </article>
+          <article>
+            <strong>Chattogram Agrabad</strong>
+            <span>Port city apartments, business access, hillside weekends</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section agents" id="agents" aria-labelledby="agents-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Your team</p>
+            <h2 id="agents-title">Straightforward advice from first viewing to registration.</h2>
+          </div>
+        </div>
+        <div class="agent-grid">
+          <article>
+            <img
+              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=700&q=80"
+              alt="Portrait of senior agent Nusrat Karim"
+            />
+            <h3>Nusrat Karim</h3>
+            <p>Senior buyer advisor, Dhaka</p>
+          </article>
+          <article>
+            <img
+              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=80"
+              alt="Portrait of property specialist Arif Hossain"
+            />
+            <h3>Arif Hossain</h3>
+            <p>Property specialist, Chattogram</p>
+          </article>
+          <article>
+            <img
+              src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=700&q=80"
+              alt="Portrait of leasing advisor Farhana Rahman"
+            />
+            <h3>Farhana Rahman</h3>
+            <p>Leasing and relocation advisor</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Start here</p>
+          <h2 id="contact-title">Tell us what you are looking for.</h2>
+          <p>
+            Send a few details and an SB Properties Limited advisor will respond with suitable
+            listings, document guidance, and available viewing times.
+          </p>
+        </div>
+        <form class="contact-form">
+          <label>
+            <span>Name</span>
+            <input type="text" placeholder="Your name" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea placeholder="Tell us your preferred area, budget, and move-in timeline" rows="4"></textarea>
+          </label>
+          <button type="submit">Request a Call</button>
+          <p class="form-note" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 SB Properties Limited</p>
+      <p>hello@sbpropertieslimited.com.bd · +880 1712 345 678 · Gulshan, Dhaka</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
