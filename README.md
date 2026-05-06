@@ -8,7 +8,7 @@
 
 ## About This Project
 
-This repository contains the source code for the SB Properties Limited website — a single-page property platform helping buyers and tenants find homes across Dhaka and Chattogram, Bangladesh.
+This repository contains the source code for the SB Properties Limited website — a platform helping buyers and tenants find homes across Dhaka and Chattogram, Bangladesh.
 
 ```
 index.html    – Page structure and content
